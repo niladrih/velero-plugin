@@ -25,7 +25,7 @@ sudo systemctl status iscsid  --no-pager
 echo "Installation complete"
 
 #TODO add openebs release
-kubectl apply -f https://raw.githubusercontent.com/openebs/openebs/master/k8s/openebs-operator.yaml
+kubectl apply -f https://raw.githubusercontent.com/openebs/openebs/v3.10.0/k8s/openebs-operator.yaml
 
 function waitForDeployment() {
 	DEPLOY=$1
